@@ -1,4 +1,5 @@
 Pinit::Application.routes.draw do
+  devise_for :users
   # replace the line = get "pages/home"
   # with this:
   root "pages#home"

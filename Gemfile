@@ -26,6 +26,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
+gem 'devise'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
